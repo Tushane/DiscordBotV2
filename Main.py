@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-Token = 'ODUwODc1MTY2NzY1MzUwOTEy.YLwFQA.arMsZ1ghEhzOPLnw0YG_l18p-r8'
+Token = 'ODUwODc1MTY2NzY1MzUwOTEy.YLwFQA.PY7CJqM31RsalaDapfDXUXZufls'
 
 client = commands.Bot(command_prefix= '.')
 
@@ -33,4 +33,6 @@ async def add_my_role(ctx, user_type):
 
     await ctx.send(f'Your Role has been Added. Hope You Enjoy Your Stay! {ctx.author.mention}')
 
+
 client.run(Token)
+
