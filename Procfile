@@ -1,1 +1,1 @@
-worker: python /.idea/Main.py
+worker: python Main.py
