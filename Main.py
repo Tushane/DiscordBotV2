@@ -33,3 +33,4 @@ async def add_my_role(ctx, user_type):
 
     await ctx.send(f'Your Role has been Added. Hope You Enjoy Your Stay! {ctx.author.mention}')
 
+client.run(Token)
